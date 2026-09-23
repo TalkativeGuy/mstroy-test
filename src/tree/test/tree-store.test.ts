@@ -4,7 +4,7 @@ import { TreeStoreItem } from '../domain/TreeStoreItem';
 import type { ITreeStoreItem } from '../domain/TreeStoreItem';
 
 const testItems: ITreeStoreItem[] = [
-  { id: 1, parent: undefined, label: 'Item 1' },
+  { id: 1, parent: null, label: 'Item 1' },
   { id: '2', parent: 1, label: 'Item 2' },
   { id: 3, parent: 1, label: 'Item 3' },
   { id: 4, parent: '2', label: 'Item 4' },

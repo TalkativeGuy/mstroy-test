@@ -2,7 +2,7 @@ export type TreeStoreItemId = string|number;
 
 export interface ITreeStoreItem {
   id: TreeStoreItemId;
-  parent?: string|number;
+  parent?: string|number|null;
   label: string;
 }
 
